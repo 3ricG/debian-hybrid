@@ -30,6 +30,11 @@ sudo ./configure-sources.sh
 sudo apt full-upgrade --autoremove --purge
 ```
 
+Also recommended to run apt-news and apt-listchanges before upgrading:
+```
+./enable-apt-listchanges.sh
+```
+
 # installation
 
 the commands below will automate the following:
