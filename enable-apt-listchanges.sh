@@ -16,4 +16,4 @@ for f in "${!files[@]}"; do
 done
 
 apt update
-apt install apt-listchanges
+apt install apt-listchanges apt-listbugs
